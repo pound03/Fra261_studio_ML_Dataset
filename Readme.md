@@ -13,4 +13,10 @@ Raw Dataset [คนที่ 1,คนที่ 2,คนที่ 3]
 - ท่าอื่นๆ (random)     [11,11,20]
 
 วิธีใช้งานโปรแกรม
-1. โหลดโฟดเดอร์ Script เข้าไปที่ matlab Online
+1. โหลดโฟดเดอร์ Script เข้าไปที่ matlab Drive
+2. เปิดโฟเดอร์ Script ใน Matlab online
+3. เปิดไฟล์ Script ได้แก่ Script_walk.mlx,Script_stretch.mlx,Script_bt.mlx,Script_lk.mlx
+4. รัน Section แรกของ live script เพื่อโหลดข้อมูล
+5. เชื่อมต่อมือถือ เข้ากับ matlab online บน console โดยใช้ คำสั่ง m = mobiledev <br>*หมายเหตุ ความถี่ของ sensor 25 Hz และเปิดใช้งาน เซ็นเซอร์ accelerometer และ gyroscope
+6. รัน Section สองของ live script และทำท่าทางตามเอกสาร<br>
+*ผลลัพธ์ จะอยู่ในตัวแปร y จะเป็นค่า 0 และ 1 หมายถึง ทำท่างไม่ตรง และ ท่าทางถูก ตามลำดับ 
